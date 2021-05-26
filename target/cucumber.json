@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 808400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSearchDef.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Search existing user",
+        "description": "",
+        "id": "user-search;search-existing-user",
+        "after": [
+          {
+            "result": {
+              "duration": 142658,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UserSearchDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41768644596,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "UserSearchDef.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16283577575,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Admin open url \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "UserSearchDef.admin_open_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181952441,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin enters username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 26
+                },
+                {
+                  "val": "admin123",
+                  "offset": 50
+                }
+              ],
+              "location": "UserSearchDef.admin_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26731280224,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click login",
+            "match": {
+              "location": "UserSearchDef.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68978917,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin can view dashboard",
+            "match": {
+              "location": "UserSearchDef.admin_can_view_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 158344396861,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin click on admintab",
+            "match": {
+              "location": "UserSearchDef.admin_click_on_admintab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89849669,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin search username \"Bhakua11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bhakua11",
+                  "offset": 23
+                }
+              ],
+              "location": "UserSearchDef.admin_search_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1714384896,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click search",
+            "match": {
+              "location": "UserSearchDef.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42118,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Admin can view desired username in list",
+            "match": {
+              "location": "UserSearchDef.admin_can_view_desired_username_in_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User search",
+    "description": "",
+    "id": "user-search",
+    "keyword": "Feature",
+    "uri": "Features/SearchUser.feature"
+  }
+]

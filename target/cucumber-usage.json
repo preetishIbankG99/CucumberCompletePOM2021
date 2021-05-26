@@ -1,0 +1,164 @@
+[
+  {
+    "source": "^Admin click on admintab$",
+    "steps": [
+      {
+        "name": "Admin click on admintab",
+        "aggregatedDurations": {
+          "average": 158.344396861,
+          "median": 158.344396861
+        },
+        "durations": [
+          {
+            "duration": 158.344396861,
+            "location": "Features/SearchUser.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click search$",
+    "steps": [
+      {
+        "name": "Click search",
+        "aggregatedDurations": {
+          "average": 1.714384896,
+          "median": 1.714384896
+        },
+        "durations": [
+          {
+            "duration": 1.714384896,
+            "location": "Features/SearchUser.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click login$",
+    "steps": [
+      {
+        "name": "Click login",
+        "aggregatedDurations": {
+          "average": 26.731280224,
+          "median": 26.731280224
+        },
+        "durations": [
+          {
+            "duration": 26.731280224,
+            "location": "Features/SearchUser.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Admin can view dashboard$",
+    "steps": [
+      {
+        "name": "Admin can view dashboard",
+        "aggregatedDurations": {
+          "average": 0.068978917,
+          "median": 0.068978917
+        },
+        "durations": [
+          {
+            "duration": 0.068978917,
+            "location": "Features/SearchUser.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User launch chrome browser$",
+    "steps": [
+      {
+        "name": "User launch chrome browser",
+        "aggregatedDurations": {
+          "average": 41.768644596,
+          "median": 41.768644596
+        },
+        "durations": [
+          {
+            "duration": 41.768644596,
+            "location": "Features/SearchUser.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Admin open url \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Admin open url \"https://opensource-demo.orangehrmlive.com/\"",
+        "aggregatedDurations": {
+          "average": 16.283577575,
+          "median": 16.283577575
+        },
+        "durations": [
+          {
+            "duration": 16.283577575,
+            "location": "Features/SearchUser.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Admin search username \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Admin search username \"Bhakua11\"",
+        "aggregatedDurations": {
+          "average": 0.089849669,
+          "median": 0.089849669
+        },
+        "durations": [
+          {
+            "duration": 0.089849669,
+            "location": "Features/SearchUser.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Admin can view desired username in list$",
+    "steps": [
+      {
+        "name": "Admin can view desired username in list",
+        "aggregatedDurations": {
+          "average": 0.000042118,
+          "median": 0.000042118
+        },
+        "durations": [
+          {
+            "duration": 0.000042118,
+            "location": "Features/SearchUser.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Admin enters username as \"([^\"]*)\" and password as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Admin enters username as \"Admin\" and password as \"admin123\"",
+        "aggregatedDurations": {
+          "average": 0.181952441,
+          "median": 0.181952441
+        },
+        "durations": [
+          {
+            "duration": 0.181952441,
+            "location": "Features/SearchUser.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

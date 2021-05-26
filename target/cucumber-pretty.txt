@@ -1,0 +1,12 @@
+Feature: User search
+
+  Scenario: Search existing user                                     # Features/SearchUser.feature:2
+    Given User launch chrome browser                                 # UserSearchDef.user_launch_chrome_browser()
+    When Admin open url "https://opensource-demo.orangehrmlive.com/" # UserSearchDef.admin_open_url(String)
+    And Admin enters username as "Admin" and password as "admin123"  # UserSearchDef.admin_enters_username_as_and_password_as(String,String)
+    And Click login                                                  # UserSearchDef.click_login()
+    Then Admin can view dashboard                                    # UserSearchDef.admin_can_view_dashboard()
+    When Admin click on admintab                                     # UserSearchDef.admin_click_on_admintab()
+    Then Admin search username "Bhakua11"                            # UserSearchDef.admin_search_username(String)
+    And Click search                                                 # UserSearchDef.click_search()
+    Then Admin can view desired username in list                     # UserSearchDef.admin_can_view_desired_username_in_list()

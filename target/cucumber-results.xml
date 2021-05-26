@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="245.184058">
+<testcase classname="User search" name="Search existing user" time="245.184058">
+<system-out><![CDATA[Given User launch chrome browser............................................passed
+When Admin open url "https://opensource-demo.orangehrmlive.com/"............passed
+And Admin enters username as "Admin" and password as "admin123".............passed
+And Click login.............................................................passed
+Then Admin can view dashboard...............................................passed
+When Admin click on admintab................................................passed
+Then Admin search username "Bhakua11".......................................passed
+And Click search............................................................passed
+Then Admin can view desired username in list................................passed
+]]></system-out>
+</testcase>
+</testsuite>
